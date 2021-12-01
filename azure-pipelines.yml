@@ -12,7 +12,7 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: |
-      javac Sum.java
-      
-      java Sum
+        script: |
+          javac Sum.java
+          
+          java Sum
